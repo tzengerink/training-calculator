@@ -1,7 +1,6 @@
 import React from "react";
+import TrainingStressScoreCalculator from "../components/features/TrainingStressScoreCalculator";
 
-const Index: React.FC = () => {
-  return <>Training Calculator</>;
-};
+const Index: React.FC = () => <TrainingStressScoreCalculator />;
 
 export default Index;

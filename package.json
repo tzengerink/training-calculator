@@ -8,5 +8,10 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "web": "yarn workspace @training-calculator/website",
+    "frm": "yarn workspace @training-calculator/formulas"
+  },
+  "packageManager": "yarn@3.2.4"
 }
