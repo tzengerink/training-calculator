@@ -5,5 +5,8 @@
   "repository": "https://github.com/tzengerink/training-calculator",
   "author": "Teun Zengerink",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
