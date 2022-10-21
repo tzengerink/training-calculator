@@ -1,0 +1,9 @@
+{
+  "name": "training-calculator",
+  "version": "0.0.0",
+  "description": "Training Calculator",
+  "repository": "https://github.com/tzengerink/training-calculator",
+  "author": "Teun Zengerink",
+  "license": "MIT",
+  "private": true
+}

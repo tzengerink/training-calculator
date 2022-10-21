@@ -1,0 +1,8 @@
+{
+  "name": "@training-calculator/website",
+  "version": "0.0.0",
+  "description": "Website",
+  "author": "Teun Zengerink",
+  "license": "MIT",
+  "private": true
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@training-calculator/formulas",
+  "version": "0.0.0",
+  "description": "Formulas",
+  "author": "Teun Zengerink",
+  "license": "MIT",
+  "private": true
+}
