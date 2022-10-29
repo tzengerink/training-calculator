@@ -26,7 +26,7 @@ export interface State {
 }
 
 export const defaultState = {
-  mode: Mode.Pace,
+  mode: Mode.Power,
   durationInMinutes: "",
   power: {
     thresholdInWatts: "",

@@ -16,7 +16,7 @@
     "@emotion/styled": "^11.10.4",
     "@mui/material": "^5.10.10",
     "@mui/x-date-pickers": "^5.0.5",
-    "@training-calculator/formulas": "workspace:packages/formulas",
+    "@training-calculator/formulas": "*",
     "moment": "^2.29.4",
     "next": "^13.0.0",
     "react": "^18.2.0",

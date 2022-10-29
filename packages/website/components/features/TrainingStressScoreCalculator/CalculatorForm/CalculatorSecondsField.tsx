@@ -1,7 +1,7 @@
 import { Box, TextField, TextFieldProps } from "@mui/material";
 import { TimePicker } from "@mui/x-date-pickers";
 import { SECONDS_IN_A_MINUTE } from "@training-calculator/formulas";
-import moment, { Moment, duration } from "moment";
+import moment, { duration, Moment } from "moment";
 
 export type CalculatorSecondsFieldValue = Moment | null;
 
