@@ -1,6 +1,8 @@
 {
   "name": "Training Calculator",
   "short_name": "Training Calculator",
+  "display": "standalone",
+  "start_url": "/",
   "background_color": "#222",
-  "display": "standalone"
+  "theme_color": "#fefefe"
 }
