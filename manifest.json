@@ -1,6 +1,0 @@
-{
-  "name": "Training Calculator",
-  "description": "Determine your training stress score, intensity factor, normalized power, threshold pace and much more.",
-  "display": "standalone",
-  "background_color": "#222"
-}
