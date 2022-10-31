@@ -2,7 +2,19 @@
   "name": "Training Calculator",
   "short_name": "Training Calculator",
   "display": "standalone",
-  "start_url": "/training-calculator/",
-  "background_color": "#222",
-  "theme_color": "#fefefe"
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#fff",
+  "theme_color": "#000"
 }
