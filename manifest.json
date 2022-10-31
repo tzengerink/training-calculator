@@ -2,7 +2,7 @@
   "name": "Training Calculator",
   "short_name": "Training Calculator",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "/training-calculator/",
   "icons": [
     {
       "src": "icon-192.png",
