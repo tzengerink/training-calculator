@@ -2,7 +2,7 @@
   "name": "Training Calculator",
   "short_name": "Training Calculator",
   "display": "standalone",
-  "start_url": "https://tzengerink.github.io/training-calculator/",
+  "start_url": "/",
   "icons": [
     {
       "src": "icon-192.png",
