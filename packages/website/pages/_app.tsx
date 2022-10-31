@@ -3,7 +3,7 @@ import { deepPurple, grey, pink } from "@mui/material/colors";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterMoment } from "@mui/x-date-pickers/AdapterMoment";
 import { AppProps } from "next/app";
-import React from "react";
+import React, { useEffect } from "react";
 import { Layout } from "../components/Layout";
 
 const theme = createTheme({
@@ -11,6 +11,15 @@ const theme = createTheme({
 });
 
 const App: React.FC<AppProps> = (appProps) => {
+  useEffect(() => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register(
+        `${process.env.NEXT_PUBLIC_BASE_DIR}serviceWorker.js`,
+        { scope: process.env.NEXT_PUBLIC_BASE_DIR }
+      );
+    }
+  }, []);
+
   return (
     <React.StrictMode>
       <ThemeProvider theme={theme}>

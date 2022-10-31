@@ -25,11 +25,11 @@ export const Layout: React.FC<AppProps> = ({ Component, pageProps }) => {
         <title>{TITLE_AND_TAGLINE}</title>
         <link
           rel="icon"
-          href={`${process.env.NEXT_PUBLIC_BASE_DIR}/favicon.ico`}
+          href={`${process.env.NEXT_PUBLIC_BASE_DIR}favicon.ico`}
         />
         <link
           rel="manifest"
-          href={`${process.env.NEXT_PUBLIC_BASE_DIR}/manifest.json`}
+          href={`${process.env.NEXT_PUBLIC_BASE_DIR}manifest.json`}
         />
       </Head>
       <AppBar component="nav" sx={{ bgcolor: "primary.900" }}>
