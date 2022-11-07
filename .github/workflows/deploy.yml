@@ -15,7 +15,11 @@ jobs:
         with:
           node-version: 16
       - name: Install
-        run: yarn install
+        run: yarn install && yarn workspace @training-calculator/website install:e2e
+      - name: Lint
+        run: yarn workspace @training-calculator/website lint
+      - name: Test
+        run: yarn workspace @training-calculator/website test
       - name: Build
         run: yarn workspace @training-calculator/website build
       - name: Deploy

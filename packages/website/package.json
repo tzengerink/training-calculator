@@ -8,8 +8,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
+    "install:e2e": "playwright install --with-deps",
+    "lint:next": "next lint",
+    "lint": "yarn lint:next",
     "start": "next start",
-    "lint": "next lint"
+    "test:e2e": "playwright test",
+    "test": "yarn test:e2e"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -23,6 +27,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.27.1",
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "eslint": "8.25.0",
